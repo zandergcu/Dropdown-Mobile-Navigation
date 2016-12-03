@@ -1,0 +1,111 @@
+
+html, body, div, section, h3, h2, h1, p, ul, li, input, button, td, tr, table, span, button {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;          /* Page Font */
+    width: 100%;
+    position: absolute;                         /* Relative Positions Base Off This*/
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body section {
+width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2.2rem;
+}
+p {
+    font-size: 2rem;
+}
+
+ /**************** Logo & Navigation Section ****************/
+
+#PageTop {                   
+    position: relative;
+}
+
+#logo {
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+
+#navigation {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    clear: both;
+    border-bottom: 0.5px solid white;
+    background: rgb(103, 30, 119);
+    color: white;
+
+}
+
+nav a:hover {
+    background: rgb(123, 50, 139);
+}
+
+nav a p {
+    margin-left: 10%;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    padding-top:4px;
+    
+}
+
+#mobileBtn {
+    width: 45px;
+    height: 35px;
+    background-color: rgb(103, 30, 119);
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#mobileBtn:hover {
+    background-color: rgb(123, 50, 139);
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+.mobileBtnLine {
+    height: 4px;
+    width: 30px;
+    background: #fff;
+    display: block;
+    margin: 4px auto 4px auto;
+}
+
+
+
